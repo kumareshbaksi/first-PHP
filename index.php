@@ -26,7 +26,16 @@
         
         $float = 6.7;
 
-        echo "$float"
+        echo "$float <br>";
+
+        function local_variable(){
+            $p = 1;
+
+            echo "$p";
+
+        }
+
+        local_variable();
 
     ?>
 </body>
